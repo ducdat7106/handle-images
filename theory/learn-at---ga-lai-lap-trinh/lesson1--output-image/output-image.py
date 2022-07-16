@@ -21,8 +21,10 @@ img = cv2.rotate(img, cv2.ROTATE_180)
 cv2.imshow('girl beautiful ', img)
 
 ## wait press any key to exit
-k = cv2.waitKey()
+k = cv2.waitKey(0)
 print(k)
+
+cv2.destroyAllWindows()
 
 
 

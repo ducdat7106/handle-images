@@ -1,6 +1,9 @@
 import os
 path = 'home/User/Desktop/file.txt'
 
+
+# splitext: tách chuổi đẩy vào ra làm 2 đoạn
+# tách đường dẫn thành 2 đoạn
 root_path = os.path.splitext(path)
 
 print(path)
